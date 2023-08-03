@@ -1,0 +1,44 @@
+.loginWindow{
+    position: absolute;
+    top: 35vh;
+    left: 35vw;
+    width: 30vw;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 30pt;
+    border: 3px rgb(245, 246, 245) solid;
+    border-radius: 30px;
+    background-color: rgb(44, 42, 42);
+    
+}
+.text-login{
+    margin: auto;
+    margin-bottom: 3%;
+    width: 90%;
+    color: #f7f8f9;
+}
+.inputToken{
+    width: 90%;
+    font-size: 25pt;
+    
+}
+.saveToken{
+    width: 40%;
+    height: 20%;
+    margin: auto;
+    margin-top: 3%;
+    background-color: red;
+
+    min-width: 130px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 1pt;
+    color: #f7f8f9;
+    border: 3px rgb(245, 246, 245) solid;
+    border-radius: 30px;
+    font-size: 15pt;
+}

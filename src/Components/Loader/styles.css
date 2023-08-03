@@ -1,0 +1,49 @@
+.loaderWindow{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+input[type="file"] {
+    display: none;
+}
+.loadingInput{
+    margin: auto;
+    margin-bottom: 2%;
+    cursor: pointer;
+    position: relative;
+	display: inline-block;
+}
+.loadingInput span {
+	height: 40px;
+    width: auto;
+    min-width: 150px;
+    background-color: red;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 1pt;
+    color: #f7f8f9;
+    border: 3px rgb(245, 246, 245) solid;
+    border-radius: 30px;
+    font-size: 20pt;
+}
+.loadingButton{
+    margin: auto;
+    margin-top: 2%;
+    height: 6%;
+    width: 12%;
+    font-size: 20pt;
+    background-color: red;
+    min-width: 130px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 1pt;
+    color: #f7f8f9;
+    border: 3px rgb(245, 246, 245) solid;
+    border-radius: 30px;
+    font-size: 15pt;
+}
